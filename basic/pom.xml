@@ -116,5 +116,15 @@
       <artifactId>commons-lang3</artifactId>
       <version>3.4</version>
     </dependency>
+
+    <!-- JavaFX may be needed, e.g. for ARM Hard Floats
+      https://wiki.openjdk.java.net/display/OpenJFX/Cross+Building+for+ARM+Hard+Float
+      http://gluonhq.com/labs/javafxports/get/
+    <dependency>
+      <groupId>jfxrt</groupId>
+      <artifactId>jfxrt</artifactId>
+      <version>armv6hf-sdk-8.60.8</version>
+    </dependency>
+    -->
   </dependencies>
 </project>
